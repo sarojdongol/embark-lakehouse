@@ -1,0 +1,13 @@
+site_name: Databricks LakeHouse Documentation
+
+theme:
+  name: "material"
+
+plugins:
+  - mkdocstrings
+
+nav:
+  - index.md
+  - tool transformation use: usages.md
+  - feature included: feature.md
+  - additional guide: reference.md

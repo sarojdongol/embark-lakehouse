@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "embark-lakehouse"
+version = "0.1.0"
+description = "Databricks LakeHouse Builder"
+authors = ["Saroj Dongol"]
+readme = "README.md"
+packages = [{include = "embark_lakehouse"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mkdocs = "^1.4.2"
+mkdocs-material = "^8.5.7"
+mkdocstrings = "^0.19.0"
+mkdocstrings-python = "^0.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
